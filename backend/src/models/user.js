@@ -23,4 +23,5 @@ const userSchema = new mongoose.Schema({
 })
 
 userSchema.plugin(mongoosePaginate)
+
 module.exports = mongoose.model('User',userSchema)
