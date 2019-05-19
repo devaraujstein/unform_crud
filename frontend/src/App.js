@@ -8,7 +8,9 @@ import Register from './pages/register'
 const App = () => (
   <div className="App">
       <Header />
+      <Register />
       <Main />
+
     </div>
   
 )
